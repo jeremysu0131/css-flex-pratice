@@ -1,18 +1,11 @@
 <template>
   <div>
-    <h2 class="title">flex-direction</h2>
-
+    <h2 class="title">display</h2>
     <div class="flex-main-container">
       <div class="flex-item-text">
-        <button class="option-button"
-                v-for="(item,index) in items"
-                :key="item.index"
-                @click="changeStyle(item)">
-          {{item}}
-        </button>
+
       </div>
-      <div class="flex-container"
-           :style="styleObject">
+      <div class="flex-container">
         <div class="flex-item"
              style="background-color:#20A0FF">
           <div>1</div>
@@ -34,33 +27,17 @@
           <div>.flex-item</div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      items: [
-        'row',
-        'row-reverse',
-        'column',
-        'column-reverse',
-      ],
-      styleObject: {
-        'flex-direction': '',
-      },
-    };
-  },
-  methods: {
-    changeStyle(item) {
-      this.styleObject['flex-direction'] = item;
-    },
-  },
+
 };
 </script>
 
-<style>
+<style scoped>
 
 </style>

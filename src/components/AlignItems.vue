@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2 class="title">flex-direction</h2>
-
+    <h2 class="title">align-items</h2>
     <div class="flex-main-container">
       <div class="flex-item-text">
         <button class="option-button"
@@ -43,24 +42,25 @@ export default {
   data() {
     return {
       items: [
-        'row',
-        'row-reverse',
-        'column',
-        'column-reverse',
+        'stretch',
+        'flex-start',
+        'flex-end',
+        'center',
+        'baseline',
       ],
       styleObject: {
-        'flex-direction': '',
+        'align-items': '',
       },
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['flex-direction'] = item;
+      this.styleObject['align-items'] = item;
     },
   },
 };
 </script>
 
-<style>
+<style scoped>
 
 </style>
