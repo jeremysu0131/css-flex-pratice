@@ -8,6 +8,7 @@ import FlexWrap from '@/components/FlexWrap';
 import AlignContent from '@/components/AlignContent';
 import AlignSelf from '@/components/AlignSelf';
 import Order from '@/components/Order';
+import Flex from '@/components/Flex';
 
 Vue.use(Router);
 
@@ -39,5 +40,8 @@ export default new Router({
   }, {
     path: '/order',
     component: Order,
+  }, {
+    path: '/flex',
+    component: Flex,
   }],
 });
