@@ -10,7 +10,14 @@
                 @click="changeStyle(item)">
           {{item}}
         </button>
-        <p>需要設定align-content: flex-start;</p>
+        <p>flex-wrap 屬性用法是： 如果 Flex 容器的寬度不夠時則內容元素是否換行，設定值有三個：</p>
+        <ul>
+          <li>nowrap：預設值，單行</li>
+          <li>wrap：多行</li>
+          <li>wrap-reverse：多行，但內容元素反轉
+          </li>
+        </ul>
+        <p>備註：此範例 Flex容器有加上一個屬性 align-content: flex-start ，才能以方塊的方式顯示。</p>
       </div>
       <div class="flex-container"
            :style="styleObject">

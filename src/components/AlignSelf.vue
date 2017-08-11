@@ -3,7 +3,7 @@
     <h2 class="title">align-self</h2>
     <div class="flex-main-container">
       <div class="flex-item-text">
-
+        <p>align-self 屬性與 align-items 一樣，但特性是可以針對每一個 flex item 做設定。</p>
       </div>
       <div class="flex-container">
         <div class="flex-item flex-item1"
@@ -45,8 +45,8 @@ export default {
 
 <style scoped>
 .flex-item {
-  height: 100px;
-  width: 100px;
+  min-height: 100px;
+  min-width: 100px;
 }
 
 .flex-item1 {

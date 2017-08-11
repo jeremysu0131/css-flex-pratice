@@ -9,6 +9,21 @@
                 @click="changeStyle(item)">
           {{item}}
         </button>
+        <p>
+          <img src="https://www.w3.org/TR/css-flexbox-1/images/flex-direction-terms.svg"
+               class="flexbox-img"
+               alt="">
+        </p>
+        <p> justify-content 決定了內容元素與整個 Flexbox 容器的「
+          <strong>水平對齊</strong>」位置，看一下上面的 Flexbox 容器模型， 具有 main start 與 main end 左右兩個端點， justify-content 就是按照這個方式做設定，而其中的設定值總共有下列五個：
+        </p>
+        <ul>
+          <li>flex-start：預設值，對齊最左邊的 main start</li>
+          <li>flex-end：對齊最左邊的 main end</li>
+          <li>center：水平置中</li>
+          <li>space-between：平均分配內容元素，左右元素將會與 main start 和 main end 貼齊</li>
+          <li>space-around：平均分配內容元素，間距也是平均分配</li>
+        </ul>
       </div>
       <div class="flex-container"
            :style="styleObject">

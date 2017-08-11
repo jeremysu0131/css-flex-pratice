@@ -10,6 +10,15 @@
                 @click="changeStyle(item)">
           {{item}}
         </button>
+        <p>align-content 屬性修改 flex-wrap 屬性的行為，它與 align-items 很類似，但是不是對齊 flex 內容元素，而是對齊 flex 容器</p>
+        <ul>
+          <li>stretch：預設值，內容元素全部伸展</li>
+          <li>flex-start：對齊最上面的 cross start</li>
+          <li>flex-end：對齊最下面的 cross end</li>
+          <li>center：垂直置中</li>
+          <li>space-between：第一行對齊最上方，最後一行對齊最下方 </li>
+          <li>space-around：每行平均分配間距</li>
+        </ul>
       </div>
       <div class="flex-container"
            :style="styleObject">
@@ -90,7 +99,7 @@ export default {
 
 .flex-item {
   margin: 5px;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
 }
 </style>

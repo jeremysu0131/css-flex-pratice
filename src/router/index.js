@@ -12,8 +12,10 @@ import Order from '@/components/Order';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
   routes: [{
+    path: '*',
+    component: Display,
+  }, {
     path: '/display',
     component: Display,
   }, {

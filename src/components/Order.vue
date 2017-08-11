@@ -3,7 +3,7 @@
     <h2 class="title">Order</h2>
     <div class="flex-main-container">
       <div class="flex-item-text">
-
+        <p>order 屬性指定flex item 的排序</p>
       </div>
       <div class="flex-container">
         <div class="flex-item flex-item1"

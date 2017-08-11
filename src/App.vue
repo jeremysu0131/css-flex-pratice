@@ -59,6 +59,7 @@ nav a:hover {
 
 .flex-item-text {
   flex: 1;
+  padding: 0 10px;
 }
 
 .flex-container {
@@ -93,5 +94,10 @@ nav a:hover {
 
 .option-button:active {
   background-color: rgba(200, 200, 200, 1);
+}
+
+.flexbox-img {
+  width: 80%;
+  box-shadow: 0 0 5px #000000;
 }
 </style>

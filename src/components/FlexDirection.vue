@@ -10,6 +10,15 @@
                 @click="changeStyle(item)">
           {{item}}
         </button>
+        <p> flex-direction 屬性是指定 Flexbox 內容元素的「
+          <strong>排列方向</strong>」，分別有下列四種：</p>
+        <ul>
+          <li>row：預設值，由左到右，再從上到下</li>
+          <li>row-reverse：與 row 相反</li>
+          <p>(備註：若使用 direction 改變左右排列方向則預設值則會按照 direction 來做變化)</p>
+          <li>column：從上到下，再由左到右</li>
+          <li>column-reverse：從下到上，再由左到右 </li>
+        </ul>
       </div>
       <div class="flex-container"
            :style="styleObject">
