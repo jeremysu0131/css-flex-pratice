@@ -70,21 +70,17 @@
 export default {
   data() {
     return {
-      items: [
-        'nowrap',
-        'wrap',
-        'wrap-reverse',
-      ],
+      items: ["nowrap", "wrap", "wrap-reverse"],
       styleObject: {
-        'flex-wrap': '',
-      },
+        "flex-wrap": ""
+      }
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['flex-wrap'] = item;
-    },
-  },
+      this.styleObject["flex-wrap"] = item;
+    }
+  }
 };
 </script>
 

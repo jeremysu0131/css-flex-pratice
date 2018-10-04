@@ -17,13 +17,13 @@
 
 <script>
 export default {
-  name: 'app',
+  name: "app"
 };
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 .flex-container {
-  background-color: #E5E9F2;
+  background-color: #e5e9f2;
   border: 5px solid rgb(200, 200, 200);
   display: flex;
   flex: 1;
@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 .option-button:hover {
-  background-color: rgba(200, 200, 200, .5);
+  background-color: rgba(200, 200, 200, 0.5);
   outline: none;
 }
 

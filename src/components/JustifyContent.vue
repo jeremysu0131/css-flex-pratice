@@ -57,25 +57,24 @@ export default {
   data() {
     return {
       items: [
-        'flex-start',
-        'flex-end',
-        'center',
-        'space-between',
-        'space-around',
+        "flex-start",
+        "flex-end",
+        "center",
+        "space-between",
+        "space-around"
       ],
       styleObject: {
-        'justify-content': '',
-      },
+        "justify-content": ""
+      }
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['justify-content'] = item;
-    },
-  },
+      this.styleObject["justify-content"] = item;
+    }
+  }
 };
 </script>
 
 <style scoped>
-
 </style>

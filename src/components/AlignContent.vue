@@ -72,23 +72,23 @@ export default {
   data() {
     return {
       items: [
-        'stretch',
-        'flex-start',
-        'flex-end',
-        'center',
-        'space-between',
-        'space-around',
+        "stretch",
+        "flex-start",
+        "flex-end",
+        "center",
+        "space-between",
+        "space-around"
       ],
       styleObject: {
-        'align-content': '',
-      },
+        "align-content": ""
+      }
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['align-content'] = item;
-    },
-  },
+      this.styleObject["align-content"] = item;
+    }
+  }
 };
 </script>
 

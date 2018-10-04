@@ -51,25 +51,19 @@
 export default {
   data() {
     return {
-      items: [
-        'row',
-        'row-reverse',
-        'column',
-        'column-reverse',
-      ],
+      items: ["row", "row-reverse", "column", "column-reverse"],
       styleObject: {
-        'flex-direction': '',
-      },
+        "flex-direction": ""
+      }
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['flex-direction'] = item;
-    },
-  },
+      this.styleObject["flex-direction"] = item;
+    }
+  }
 };
 </script>
 
 <style>
-
 </style>

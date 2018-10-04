@@ -56,23 +56,17 @@
 export default {
   data() {
     return {
-      items: [
-        'stretch',
-        'flex-start',
-        'flex-end',
-        'center',
-        'baseline',
-      ],
+      items: ["stretch", "flex-start", "flex-end", "center", "baseline"],
       styleObject: {
-        'align-items': '',
-      },
+        "align-items": ""
+      }
     };
   },
   methods: {
     changeStyle(item) {
-      this.styleObject['align-items'] = item;
-    },
-  },
+      this.styleObject["align-items"] = item;
+    }
+  }
 };
 </script>
 

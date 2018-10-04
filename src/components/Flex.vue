@@ -136,7 +136,7 @@ export default {
       flexBasis2: 0,
       flexBasis3: 0,
       flexBasis4: 0,
-      flexboxWidth: 600,
+      flexboxWidth: 600
     };
   },
   methods: {
@@ -181,10 +181,9 @@ export default {
       this.flexBasis3 = 0;
       this.flexBasis4 = 0;
       this.flexboxWidth = 600;
-    },
-  },
+    }
+  }
 };
-
 </script>
 
 <style scoped>
@@ -198,7 +197,7 @@ input {
 .flex-custom-container {
   height: 300px;
   width: 600px;
-  background-color: #E5E9F2;
+  background-color: #e5e9f2;
   border: 5px solid rgb(200, 200, 200);
   display: flex;
   flex-direction: row;
